@@ -9,7 +9,7 @@ This is my solution for a [Frontend Mentor Challenge](https://www.frontendmentor
 
 ## 🌐 Live Demo
 
-Check out the live version here: [Live Site](#) <!-- Replace with your live site link -->
+Check out the live version here: [Live Site](https://musiolmarco.github.io/faq-accordion-solution/)
 
 ## 📂 Project Overview
 
