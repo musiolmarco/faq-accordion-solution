@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "WorkSans";
+  src: url("assets/fonts/WorkSans-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  font-size: 11px;
+}
+
+* {
+  font-family: "WorkSans";
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(292, 42%, 14%);
+}
+
+body {
+  background: url("assets/images/background-pattern-desktop.svg") no-repeat
+      top/100% auto,
+    hsl(275, 100%, 97%);
+  margin: 10% 50px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px 30px;
+  margin-bottom: 15px;
+}
+
+header {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.faq-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-content {
+  color: hsl(292, 16%, 49%);
+  line-height: 1.5;
+  display: none;
+  margin: 5px 0;
+}
+
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.faq-header:focus {
+  outline: 2px dotted hsl(292, 16%, 49%);
+}
+
+.faq-header p {
+  font-weight: 600;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.faq-header p:hover {
+  color: #c700c4;
+}
+
+.faq-header:hover {
+  cursor: pointer;
+}
+
+hr {
+  border-top: 1px solid hsl(275, 100%, 97%);
+  width: 100%;
+}
+
+/* 📱 Mobile Devices (small phones, portrait) */
+@media (max-width: 480px) {
+  body {
+    margin: 10% 25px;
+  }
+}
+
+/* 📲 Large Phones (portrait and small landscape) */
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    margin: 50px 25px;
+  }
+}
+
+/* 💻 Tablets and Small Laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* 🖥️ Desktop and Large Screens */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  body {
+    margin: 10% 25%;
+  }
+}
+
+/* 🖥️📺 Extra Large Screens (4K, large displays) */
+@media (min-width: 1441px) {
+  body {
+    margin: 10% 30%;
+  }
+}
